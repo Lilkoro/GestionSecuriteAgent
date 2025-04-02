@@ -151,3 +151,4 @@ E:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.gestPer
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.EnreCompt.resources
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.gestPerso.resources
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.csproj.Up2Date
+F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.gestAgents.resources

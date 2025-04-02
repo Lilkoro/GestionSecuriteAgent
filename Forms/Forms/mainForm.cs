@@ -15,6 +15,7 @@ namespace Forms
         Form frm_score = new frm_score();
         EnreCompt frm_enre = new EnreCompt();
         gestPerso frm_perso = new gestPerso();
+        gestAgents frm_agents = new gestAgents();
         public mainForm()
         {
             InitializeComponent();
@@ -43,6 +44,11 @@ namespace Forms
         private void mainForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void gestionAgentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_agents.ShowDialog();
         }
     }
 }

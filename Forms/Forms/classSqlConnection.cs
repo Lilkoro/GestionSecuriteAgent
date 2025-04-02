@@ -11,6 +11,7 @@ namespace Forms
     // Utilisation d'une class pour récuperer tout les utilisateurs de la base de données
     public class User
     {
+        public int Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public int Droit { get; set; }
@@ -25,7 +26,7 @@ namespace Forms
     {
         // Création d'un connecteur, une requête SQL pour récupérer les utilisateurs pouvant se connecter, passage des info dans les Objets.
         string connectionString = "Server=localhost;Port=3306;Database=csharp;Uid=root;Pwd=";
-        string selectUsers = "SELECT login, password, droit FROM user";
+        string selectUsers = "SELECT * FROM user";
         string selectDroit = "SELECT * FROM Droit;";
         // Déclaration de la liste d'utilisateurs en public
         public List<User> users { get; private set; } = new List<User>();
@@ -43,11 +44,12 @@ namespace Forms
                 // Remplir la liste avec les utilisateurs
                 while (reader.Read())
                 {
+                    int id = int.Parse(reader["id"].ToString());
                     string login = reader["login"].ToString();
                     string password = reader["password"].ToString();
                     int droit = int.Parse(reader["droit"].ToString());
 
-                    users.Add(new User { Login = login, Password = password, Droit = droit });
+                    users.Add(new User { Id = id, Login = login, Password = password, Droit = droit });
                 }
                 reader.Close();
                 conn.Close();

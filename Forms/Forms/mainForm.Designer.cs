@@ -36,6 +36,7 @@
             this.paramètresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionPersonnelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionAgentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDeroulant.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +83,7 @@
             // paramètresToolStripMenuItem
             // 
             this.paramètresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestionAgentsToolStripMenuItem,
             this.quitterToolStripMenuItem,
             this.gestionPersonnelToolStripMenuItem});
             this.paramètresToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
@@ -102,6 +104,13 @@
             this.gestionPersonnelToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.gestionPersonnelToolStripMenuItem.Text = "Gestion Personnel";
             this.gestionPersonnelToolStripMenuItem.Click += new System.EventHandler(this.gestionPersonnelToolStripMenuItem_Click);
+            // 
+            // gestionAgentsToolStripMenuItem
+            // 
+            this.gestionAgentsToolStripMenuItem.Name = "gestionAgentsToolStripMenuItem";
+            this.gestionAgentsToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.gestionAgentsToolStripMenuItem.Text = "Gestion Agents";
+            this.gestionAgentsToolStripMenuItem.Click += new System.EventHandler(this.gestionAgentsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -144,5 +153,6 @@
         private System.Windows.Forms.MenuStrip menuDeroulant;
         private System.Windows.Forms.ToolStripMenuItem enregistrementCompetiteurToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionPersonnelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionAgentsToolStripMenuItem;
     }
 }

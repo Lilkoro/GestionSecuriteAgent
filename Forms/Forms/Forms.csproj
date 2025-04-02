@@ -105,6 +105,12 @@
     <Compile Include="EnreCompt.Designer.cs">
       <DependentUpon>EnreCompt.cs</DependentUpon>
     </Compile>
+    <Compile Include="gestAgents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestAgents.Designer.cs">
+      <DependentUpon>gestAgents.cs</DependentUpon>
+    </Compile>
     <Compile Include="gestPerso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EnreCompt.resx">
       <DependentUpon>EnreCompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestAgents.resx">
+      <DependentUpon>gestAgents.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gestPerso.resx">
       <DependentUpon>gestPerso.cs</DependentUpon>
