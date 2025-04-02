@@ -25,7 +25,7 @@ namespace Forms
     {
         // Création d'un connecteur, une requête SQL pour récupérer les utilisateurs pouvant se connecter, passage des info dans les Objets.
         string connectionString = "Server=localhost;Port=3306;Database=csharp;Uid=root;Pwd=";
-        string selectUsers = "SELECT login, password, droit FROM users";
+        string selectUsers = "SELECT login, password, droit FROM user";
         string selectDroit = "SELECT * FROM Droit;";
         // Déclaration de la liste d'utilisateurs en public
         public List<User> users { get; private set; } = new List<User>();

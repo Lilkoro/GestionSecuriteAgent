@@ -68,7 +68,6 @@ F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.frm_sco
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.Properties.Resources.resources
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
-F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.csproj.CopyComplete
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.exe
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.pdb
 F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\bin\Debug\BouncyCastle.Cryptography.dll
@@ -149,3 +148,6 @@ D:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.EnreCom
 D:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.gestPerso.resources
 E:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.EnreCompt.resources
 E:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.gestPerso.resources
+F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.EnreCompt.resources
+F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.gestPerso.resources
+F:\Marc\Ecole MC\Michaud\BLOCK 2\csharpvideo\Forms\Forms\obj\Debug\Forms.csproj.Up2Date
